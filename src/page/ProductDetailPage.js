@@ -1,16 +1,9 @@
 import { useLoaderData } from "react-router-dom";
 import BreadCrumbs from "../component/BreadCrumbs";
 import { getProduct } from "../ProductsData";
+import "../App.css";
 
 const ProductDetailPage = () => {
-  // const product = {
-  //   cateory: "Sporting Goods",
-  //   id: "1234",
-  //   name: "Football",
-  //   price: 49.99,
-  //   stocked: false,
-  //   detail: "Very Good product.",
-  // };
   const product = useLoaderData();
 
   return (
@@ -21,7 +14,7 @@ const ProductDetailPage = () => {
           <>
             <h2>{product.name}</h2>
             <div>
-              <span>Id :</span>
+              <span>ID :</span>
               {product.id}
             </div>
             <div>

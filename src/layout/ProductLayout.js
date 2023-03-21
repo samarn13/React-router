@@ -1,12 +1,13 @@
 import { Outlet } from "react-router-dom";
+import "../App.css";
 
 const ProductLayout = () => {
   return (
     <>
-      <h1>
-        products
+      <div className="head">
+        <div className="title-products">Products</div>
         <Outlet />
-      </h1>
+      </div>
     </>
   );
 };

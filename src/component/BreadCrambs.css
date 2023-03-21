@@ -20,3 +20,13 @@
 .breadcrumbs .crumb a {
   color: #555;
 }
+
+.crumb a {
+  text-decoration: none;
+  font-size: 16px;
+  display: inline-block;
+  padding: 7px 17px;
+  background-color: #ffde7b;
+  color: #ffffff;
+  border-radius: 20px;
+}

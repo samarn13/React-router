@@ -1,5 +1,5 @@
 import { NavLink, Outlet } from "react-router-dom";
-
+import "../App.css";
 const MainLayout = () => {
   return (
     <>
@@ -19,3 +19,5 @@ const MainLayout = () => {
 };
 
 export default MainLayout;
+
+// import { NavLink, Outlet } from "react-router-dom";
